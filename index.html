@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de tipos entre decimal, binario hexadecimal y octal</title>
+    <link rel="stylesheet" href="./style/estilo.css">
+</head>
+
+<body>
+    <header>
+    <h1> Conversor de tipos entre decimal, binario hexadecimal y octal</h1>
+    </header>
+    <section>
+        <article>
+            <h3> Número a convertir</h3>
+            <input type="text" id="numero" />
+        </article>
+        <article>
+            <h3> Elige tipo de conversión</h3>
+            <select id="operaciones">
+                <optgroup label="De DECIMAL a">
+                    <option value="1">Binario</option> 
+                    <option value="2">Octal</option> 
+                    <option value="3">Hexadecimal</option> 
+                </optgroup>
+                <optgroup label="De  tipo  a DECIMAL">
+                    <option value="4">Binario</option> 
+                    <option value="5">Octal</option> 
+                    <option value="6">Hexadecimal</option> 
+                </optgroup>
+            </select>
+        </article>
+        <article>
+            <h3>Resultado</h3>
+            <input type="text" id="resultado" />
+        </article>
+    </section>
+    <footer>
+        <p>CIPF Santa Catalina DAW curso 2021-2022</p>
+    </footer>
+    <script src="./js/funciones.js"></script>
+</body>
+
+</html>

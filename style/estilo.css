@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: rgb(0, 255, 0);
+}
+
+select {
+    color: blue;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+input {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
